@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import Pet from "./Pet.jsx";
+//import Pet from "./Pet.js";
 import SearchParams from "./SearchParams";
 
 // const App = () => {
@@ -32,9 +32,6 @@ const App = () => {
     <div>
       <h1 id="something-important">Adopt Me!</h1>
       <SearchParams />
-      {/* <Pet name="Blackie" animal="Dog" breed="Westie" />
-      <Pet name="Fate" animal="Dog" breed="Lhasa Apso" />
-      <Pet name="Yellow" animal="Giraffe" breed="Without Brown Dots" /> */}
     </div>
   );
 };
